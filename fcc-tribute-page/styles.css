@@ -1,0 +1,57 @@
+
+#main{
+    display:flex;
+    flex-direction:column;
+    align-items:center;font-family: 'IBM Plex Mono', monospace,sans-serif;
+  }
+  #title{
+    border:5px dotted grey;
+    background-color:#7F3FBF;
+    display:flex;
+    justify-content:center;
+    width:90%;
+    font-size:45px;
+    padding:40px;
+    margin:30px;
+    font-weight:500;
+  }
+  #image{
+    max-width:100%;
+    height:auto;
+    display:block;
+    background-color:white;
+    margin:10px auto ;
+  }
+  #image-div {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    background-color:white;
+    margin:10px;
+  }
+  #img-caption{
+    text-align:right;
+    font-size:12px;
+    font-style:italic;
+  }
+  #tribute-info{
+  background-color:#EAE1F4;
+  border:5px dotted grey;
+    padding:10px;
+    margin:30px;
+    font-size:20px;
+  }
+  #link-para{
+    background-color:#EAE7ED;
+    padding:5px;
+    margin-top:30px;
+  }
+  #tribute-link {
+    text-decoration:none;
+    color:purple;
+    font-size:23px;
+  }
+  #tribute-link:hover{
+    color:black;
+  }
